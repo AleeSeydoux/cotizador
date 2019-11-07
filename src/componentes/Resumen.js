@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {primeraMayuscula} from '../helper';
 
-//video8
+
 class Resumen extends Component {
 
     mostrarResumen = () =>{
@@ -21,6 +21,7 @@ class Resumen extends Component {
         return(
             <div>
                 {this.mostrarResumen() }
+                
             </div>
         )
     }
